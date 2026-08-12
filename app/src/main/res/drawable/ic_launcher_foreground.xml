@@ -1,0 +1,39 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer Lens Ring -->
+    <path
+        android:pathData="M54,28 A26,26 0 1 0 54,80 A26,26 0 1 0 54,28 Z M54,34 A20,20 0 1 1 54,74 A20,20 0 1 1 54,34 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="28"
+                android:startY="28"
+                android:endX="80"
+                android:endY="80"
+                android:type="linear">
+                <item android:color="#FF8B5CF6" android:offset="0.0" />
+                <item android:color="#FF06B6D4" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Center Play/Edit Diamond Prism -->
+    <path
+        android:pathData="M48,42 L66,54 L48,66 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="48"
+                android:startY="42"
+                android:endX="66"
+                android:endY="66"
+                android:type="linear">
+                <item android:color="#FF06B6D4" android:offset="0.0" />
+                <item android:color="#FF10B981" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+</vector>
